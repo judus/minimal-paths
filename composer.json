@@ -18,6 +18,10 @@
       "Maduser\\Minimal\\Paths\\": "src/"
     }
   },
+  "require": {
+    "minimal/config": "v0.1.3",
+    "minimal/http": "v0.1.2"
+  },
   "require-dev": {
     "phpunit/phpunit": "4.*"
   },
