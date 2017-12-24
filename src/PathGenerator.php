@@ -109,9 +109,6 @@ class PathGenerator
             case 'storage':
                 $path = rtrim($this->config->item('paths.storage'), '/') . '/';
                 break;
-            case 'cache':
-                $path = rtrim($this->config->item('paths.cache'), '/') . '/';
-                break;
             case 'translations':
                 $path = $this->config->item('paths.translations');
                 break;
