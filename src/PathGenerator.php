@@ -112,6 +112,9 @@ class PathGenerator
             case 'translations':
                 $path = $this->config->item('paths.translations');
                 break;
+            default:
+                $path = $this->config->item('paths.' . $item);
+                break;
         }
 
         ! $fromRoot || $path = $system . $path;
